@@ -1,0 +1,77 @@
+body {
+    background-color: #D2B48C; /* Marrom Claro */
+    font-family: 'Alegreya', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza a imagem chocolatier */
+}
+
+.chocolatier-image {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    align-self: center; /* Centraliza a imagem chocolatier */
+}
+
+.headline {
+    font-family: 'Alegreya', serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.subheadline {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: auto;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chocolate-image {
+    width: 500px;
+    height: auto;
+}
+
+.cta-button {
+    background-color: #FFD700; /* Dourado */
+    border-color: #FFD700;
+    color: #000000; /* Preto */
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0 0 0; /* Centraliza o botão verticalmente */
+    align-self: center; /* Centraliza o botão com base nos textos */
+}
+
+.cta-button:hover {
+    background-color: #DAA520; /* Dourado mais escuro */
+    border-color: #DAA520;
+}
